@@ -15,7 +15,8 @@ steps:
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
-    tasks: 'assembleDebug'
+    tasks: ':app:bundleRelease'
+    # tasks: 'assembleDebug'
 
 - task: CopyFiles@2
   inputs:
