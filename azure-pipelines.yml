@@ -3,6 +3,7 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 # https://learn.microsoft.com/azure/devops/pipelines/ecosystems/android
+# https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/android?view=azure-devops
 pool:
   vmImage: 'macOS-latest'
 
